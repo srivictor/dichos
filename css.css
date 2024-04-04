@@ -1,0 +1,91 @@
+	
+.navbar {
+    overflow: hidden;
+    background-color: #FFF;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+	background-image: url("fondo.jpg");
+	padding: 0px 0px 0px 0px;
+	text-align: center;
+	border-style:inset;
+	border-color: #F5ECCE;
+}
+
+#intro {
+	font-family:Carimba,sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	font-style: oblique;
+}
+
+.main {
+    margin-top: 128px; /* Add a top margin to avoid content overlay */
+	background-image: url("fondo.jpg");
+	padding: 0px 24px 0px 24px;
+}
+
+#resultado {
+	position: left;
+	padding: 0px 0px 5px 0px;
+}
+
+#myInput {
+    /* background-image: url('/css/searchicon.png'); /* Add a search icon to input */ 
+    background-position: 10px 12px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    width: 50%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 5px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+	
+}
+
+#myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+	border-top: 30;
+}
+
+#myUL li a {
+    /*border: 1px solid #ddd; /* Add a border to all links */
+    margin-top: -1px; /* Prevent double borders */
+    /*background-color: #f6f6f6; /* Grey background color */
+    padding: 6px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 18px; /* Increase the font-size */
+    color: black; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+	cursor: text;
+}
+
+#myUL li a:hover:not(.header) {
+    background-color: #FFF; /* Add a hover effect to all links, except for headers */
+
+}
+
+@media (max-width:400px){
+	h1 {
+		font-size:25px
+		}
+	.main {
+    margin-top: 125px; /* Add a top margin to avoid content overlay */
+	padding: 0px 6px 0px 6px;
+	
+		}
+	#myUL li a {
+		font-size: 14px;
+		line-height:1.25;
+		padding: 3px;
+	}
+	#myInput {
+   
+    width: 90%; /* Full-width */
+	}
+}
+
+
+
